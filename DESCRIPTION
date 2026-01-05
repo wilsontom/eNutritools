@@ -1,0 +1,19 @@
+Package: eNutritools
+Type: Package
+Title: Tools for working with eNutri data
+Version: 0.1.0
+Authors@R: c(
+    person("Tom", "Wilson", , "tpw2@aber.ac.uk", c("aut", "cre")))
+Description: Tools to help with extracting, cleaning and standardising data collected using the eNutri (https://enutri.app/#!) web-based Food Frequency Questionnaire (FFQ).
+License: MIT
+Depends: magrittr
+Imports: tools,
+         dplyr,
+         tidyr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
